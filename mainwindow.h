@@ -15,6 +15,21 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+    int liczba1;
+    int liczba2;
+    int suma;
+
+private slots:
+    void on_button_dodaj_clicked();
+
+    void on_button_minus_clicked();
+
+    void on_button_mnoz_clicked();
+
+    void on_button_dziel_clicked();
+
+    void on_button_reset_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
